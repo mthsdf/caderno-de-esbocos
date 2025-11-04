@@ -1,0 +1,75 @@
+.sticky {
+	position: sticky;
+	top: 64px;
+}
+
+body {
+
+		max-width: 700px;
+		margin: auto;
+		padding-top: 64px;
+		padding-left: 8%;
+		padding-right: 8%;
+		padding-bottom: 64px;
+		font-size: 1.1em;
+		line-height: 150%;
+			}
+			
+body::selection {
+		color: white;
+		background-color: red;
+}
+
+div {
+		font-size: 0.8em;
+		letter-spacing: 0.05em;
+		margin-bottom: 40px;
+}
+
+section {
+		margin-bottom: 30px;
+}
+
+			
+a {
+		color: red;
+			}
+			
+a:hover {
+		background-color: red;
+		color: white;
+	
+	}
+			
+ul {
+		padding: 0px;
+			}
+
+			
+ol {
+		padding: 0px;
+		margin-bottom: 30px;
+			}
+			
+li {
+		margin-top: 30px;
+		margin-left: 30px;
+}
+
+.nav {
+		margin-top: 60px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-top-color: black;
+}
+
+.nav ul {
+		display: inline-block;
+		margin-right: 24px; 
+
+}
+
+.footer {
+		margin-top: 10%;
+		margin-bottom: 0px;
+}
